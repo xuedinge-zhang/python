@@ -1,2 +1,5 @@
 print("Hello, World!")
 print("nihao")
+print("nihao")
+print("nihao")
+print("nihao")
