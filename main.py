@@ -50,7 +50,7 @@ a = 111
 #         if guess_num == num:
 #             print("恭喜，第三次猜中了")
 #         else:
-#             print("三次机会用完了，没有猜中。")
+            print("三次机会用完了，没有猜中。")
 
 i= 1
 while i<=9:
