@@ -79,11 +79,17 @@
 # for x in range(5, 10, 2):
 #     print(x)
 
-i = 1
-for i in range(1, 101):
-    print(f"今天是向小美表白的第{i}天")
+# i = 1
+# for i in range(1, 101):
+#     print(f"今天是向小美表白的第{i}天")
+#
+#     for j in range(1, 11):
+#         print(f"给小美送的第{j}朵玫瑰花")
+#
+#     print("小美我喜欢你")
 
-    for j in range(1, 11):
-        print(f"给小美送的第{j}朵玫瑰花")
 
-    print("小美我喜欢你")
+for i in range(1,10):
+    for j in range(1,i+1):
+        print (f"{j} * {i} = {i*j}\t", end="")
+    print()
