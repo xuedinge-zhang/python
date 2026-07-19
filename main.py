@@ -89,7 +89,25 @@
 #     print("小美我喜欢你")
 
 
-for i in range(1,10):
-    for j in range(1,i+1):
-        print (f"{j} * {i} = {i*j}\t", end="")
-    print()
+# for i in range(1,10):
+#     for j in range(1,i+1):
+#         print (f"{j} * {i} = {i*j}\t", end="")
+#     print()
+
+yue = 10000
+for i in range(1,21):
+    import random
+    num = random.randint(1, 10)
+    if yue == 0:
+        print("工资发完了，下个月领取吧")
+        break
+    else:
+        if num >= 5:
+            yue -= 1000
+            print(f"向员工{i}发工资1000元，账户余额还剩{yue}元")
+        else:
+            print(f"员工{i}，绩效分{num}，低于5，不发工资，下一位")
+
+
+
+
