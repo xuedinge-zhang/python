@@ -1,15 +1,15 @@
-print("Hello, World!")
-print("nihao")
-print("nihao")
-print("nihao")
-print("nihao")
-print("nihao")
-name = "传播博客"
-setup_year = 2006
-stock_price = 19.99
-message = ("%s成立于%d今天股价是%f")%(name,setup_year,stock_price)
-print(message)
-a = 111
+# print("Hello, World!")
+# print("nihao")
+# print("nihao")
+# print("nihao")
+# print("nihao")
+# print("nihao")
+# name = "传播博客"
+# setup_year = 2006
+# stock_price = 19.99
+# message = ("%s成立于%d今天股价是%f")%(name,setup_year,stock_price)
+# print(message)
+# a = 111
 
 # name = "风云公司"
 # stock_price = 22.22
@@ -50,14 +50,32 @@ a = 111
 #         if guess_num == num:
 #             print("恭喜，第三次猜中了")
 #         else:
-            print("三次机会用完了，没有猜中。")
+#             print("三次机会用完了，没有猜中。")
 
-i= 1
-while i<=9:
-    j=1
-    while j<=i:
-        print(f"{j}*{i}={j*i}\t",end="")
+# i= 1
+# while i<=9:
+#     j=1
+#     while j<=i:
+#         print(f"{j}*{i}={j*i}\t",end="")
+#
+#         j+=1
+#     print()
+#     i=i+1
 
-        j+=1
-    print()
-    i=i+1
+
+count = 0
+name = "itheima is a brand of itcastt"
+for x in name:
+    if x == "a":
+        count +=1
+print(f"一共有{count}个a")
+
+for x in range(10):
+    print(x)
+
+for x in range(5, 10):
+    print(x)
+
+for x in range(5, 10, 2):
+    print(x)
+
