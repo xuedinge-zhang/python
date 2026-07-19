@@ -63,19 +63,27 @@
 #     i=i+1
 
 
-count = 0
-name = "itheima is a brand of itcastt"
-for x in name:
-    if x == "a":
-        count +=1
-print(f"一共有{count}个a")
+# count = 0
+# name = "itheima is a brand of itcastt"
+# for x in name:
+#     if x == "a":
+#         count +=1
+# print(f"一共有{count}个a")
+#
+# for x in range(10):
+#     print(x)
+#
+# for x in range(5, 10):
+#     print(x)
+#
+# for x in range(5, 10, 2):
+#     print(x)
 
-for x in range(10):
-    print(x)
+i = 1
+for i in range(1, 101):
+    print(f"今天是向小美表白的第{i}天")
 
-for x in range(5, 10):
-    print(x)
+    for j in range(1, 11):
+        print(f"给小美送的第{j}朵玫瑰花")
 
-for x in range(5, 10, 2):
-    print(x)
-
+    print("小美我喜欢你")
