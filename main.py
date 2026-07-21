@@ -108,61 +108,79 @@
 #         else:
 #             print(f"员工{i}，绩效分{num}，低于5，不发工资，下一位")
 
-money = 5000000
-name = input("请输入您的姓名：")
-def cha(show_header):
-    if show_header:
-        print("----------查询余额----------")
-    print(f"{name}，您好，您余额剩余：{money}")
-
-
-def qu (num):
-    global money
-    if num > money:
-        print("余额不足")
-    else:
-        money-=num
-        print("----------取款----------")
-        print(f"{name}，您好，您取款{num}元成功")
-        cha(False)
-
-def cun(num):
-    print("----------存款----------")
-    global money
-
-    money +=num
-    print(f"{name}，您好，您取款{num}元成功")
-    cha(False)
-
-def main():
-    print("----------主菜单----------")
-    print(f"{name},您好，欢迎来到黑马银行ATM。请您选择操作：")
-    print("查询余额\t[输入1]")
-    print("存款\t\t[输入2]")
-    print("取款\t\t[输入3]")
-    print("退出\t\t[输入4]")
-    return int(input("请输入您的选择"))
 
 
 
+# money = 5000000
+# name = input("请输入您的姓名：")
+# def cha(show_header):
+#     if show_header:
+#         print("----------查询余额----------")
+#     print(f"{name}，您好，您余额剩余：{money}")
+#
+#
+# def qu (num):
+#     global money
+#     if num > money:
+#         print("余额不足")
+#     else:
+#         money-=num
+#         print("----------取款----------")
+#         print(f"{name}，您好，您取款{num}元成功")
+#         cha(False)
+#
+# def cun(num):
+#     print("----------存款----------")
+#     global money
+#
+#     money +=num
+#     print(f"{name}，您好，您取款{num}元成功")
+#     cha(False)
+#
+# def main():
+#     print("----------主菜单----------")
+#     print(f"{name},您好，欢迎来到黑马银行ATM。请您选择操作：")
+#     print("查询余额\t[输入1]")
+#     print("存款\t\t[输入2]")
+#     print("取款\t\t[输入3]")
+#     print("退出\t\t[输入4]")
+#     return int(input("请输入您的选择"))
+#
+#
+#
+#
+#
+# while True:
+#     kb = main()
+#     if kb == 1:
+#         cha(True)
+#         continue
+#
+#
+#     elif kb == 2:
+#         num = int(input("请输入想要存多少钱："))
+#         cun(num)
+#         continue
+#
+#     elif kb == 3:
+#         num = int(input("请输入想要取多少钱"))
+#         qu(num)
+#         continue
+#
+#     else:
+#         break
 
 
-while True:
-    kb = main()
-    if kb == 1:
-        cha(True)
-        continue
 
 
-    elif kb == 2:
-        num = int(input("请输入想要存多少钱："))
-        cun(num)
-        continue
 
-    elif kb == 3:
-        num = int(input("请输入想要取多少钱"))
-        qu(num)
-        continue
 
-    else:
-        break
+list = ["itt","ii","py"]
+a = list.pop(1)
+# 删除指定元素并返回出去
+print(f"{list},{a}")
+
+
+
+list = [1,1,1,1,1]
+print(len(list))
