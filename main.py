@@ -176,6 +176,7 @@
 # list_for_func()
 #
 
-str="1 2 1"
-new_str = str.replace("1","3")
-print(f"将字符串{str}，进行替换后得到；{new_str}")
+#
+str="1 2 3"
+str_list = str.split(" ")
+print(f"将字符串{str}进行split切分后得到：{str_list},类型是{type(str_list)}")
