@@ -177,6 +177,10 @@
 #
 
 #
-str="1 2 3"
-str_list = str.split(" ")
-print(f"将字符串{str}进行split切分后得到：{str_list},类型是{type(str_list)}")
+# str="1 2 3"
+# str_list = str.split(" ")
+# print(f"将字符串{str}进行split切分后得到：{str_list},类型是{type(str_list)}")
+
+str=" 1 2 3 "
+new_str = str.strip()
+print(f"字符串{str}被strip后，结果：{new_str}")
