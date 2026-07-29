@@ -168,9 +168,14 @@
 #         break
 
 
-def list_for_func():
-	list = [1,2,3,4,5]
-	for element in list:
-	    print(f"{element}")
+# def list_for_func():
+# 	list = [1,2,3,4,5]
+# 	for element in list:
+# 	    print(f"{element}")
+#
+# list_for_func()
+#
 
-list_for_func()
+str="1 2 1"
+new_str = str.replace("1","3")
+print(f"将字符串{str}，进行替换后得到；{new_str}")
